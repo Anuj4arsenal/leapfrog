@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+</head>
+
+<body>
+
+<div>
+	<form>
+		num1<input type="text" id="text1" name="">
+		num2<input type="text" id="text2" name=""><br>
+		<div id="result"></div><br>
+		<input type="button" id="plus" value="+">
+		<input type="button" id="minus" value="-" name="">
+	</form>
+</div>
+
+
+<script type="text/javascript">
+	function o(id){
+         return document.getElementById(id);
+	}
+
+	var n1 = o("text1");
+	var n2 = o("text2");
+	var result = o("result");
+
+	o("plus").onclick = function(){
+            result.innerHTML = parseFloat(n1.value) + parseFloat(n2.value);  //parseFloat is just like parseInt which converts into float number
+	}
+    
+    o("minus").onclick = function(){
+            result.innerHTML = parseFloat(n1.value) - parseFloat(n2.value);
+	}
+
+</script>
+
+</body>
+</html>

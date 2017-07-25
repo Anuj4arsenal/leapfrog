@@ -1,0 +1,45 @@
+body{
+	 background:#cecece;
+	 margin: 20px;                   /* 
+                                      for tags->  body{  }
+                                      for ids->   #id_name{  }
+                                      for class-> .class_name{   }
+	                                    */
+	 font-size: 14px;
+	 
+	 font-family: arial;
+}
+
+#nav_menu{
+	      float:right;
+}
+
+#nav_menu ul li {            /* ul: unordered list*/
+	  padding: 5px;        /* margin from inside is padding*/
+      list-style: none; /* removes the bullets or index from listing */
+      display: inline;  /* brings the list in one line*/
+      font-size: 16px;
+      font-weight: bold;
+      margin: 20px;  /* leave margin of 20px after every li*/
+      color:#000;
+}
+
+#nav_menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+#nav_menu ul li:hover{
+	background: blue;
+}
+
+.clear{
+	clear: both;                    /* it will clear both float right and float left too */                  
+}
+
+.title{
+	 background: #fff;
+	 color: #000;
+	 width: 300px;
+	 padding: 5px;
+}

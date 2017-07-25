@@ -1,0 +1,30 @@
+
+body{
+	font-family: arial,verdana;
+	font-size: 14px; /* if arial is not found then switch to verdana */
+}
+
+
+
+.menu ul li{
+	
+	width: 200px;
+	background: green;
+	color: #fff;
+	border: 1px solid red;
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 2px;
+	height: 20px;
+	padding: 5px;
+   }
+
+   a{
+   	text-decoration: none;
+   	color: white;
+   }
+
+   a:hover{
+   	color: black;
+   }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table using java script</title>
+</head>
+
+<body>
+  <div id="box1"> </div>
+  <div id="box2"></div>
+  <div id="box3"></div>
+  <div id="box4"></div>
+
+
+  <script type="text/javascript">
+  	
+  	function edit_box(id,height,width,background){
+  		var box = document.getElementById(id);
+  		box.style.height = height + "px";
+  		box.style.width = width + "px"; 
+  		box.style.background = background;
+  		box.style.border = "1px solid black";
+  		box.style.margin = "5px";
+  	}
+
+  	edit_box("box1",50,50,"green");
+  	edit_box("box2",100,100,"red");
+  	edit_box("box3",200,200,"purple");
+  	edit_box("box4",400,400,"orange");
+
+
+  </script>
+</body>
+</html>

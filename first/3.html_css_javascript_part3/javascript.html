@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="assets/js/util.js">
+		
+	</script>
+</head>
+<body>
+<div> 
+
+<label>
+<input id="f1" type="text" name="" value="x">
+</label>
+ 
+
+
+<script type="text/javascript">
+	var v1 = document.getElementById("f1");
+	v1.value = 100;
+	v1.style.background = "green";
+</script>
+
+
+<div style="margin-top: 50px">
+<select name="">
+<option value="">dd</option>	                 <!--function generate_date-option is in the file assets/js/util.js-->
+		<script type="text/javascript">   
+		  generate_date_option(1,31);   
+		</script>
+</select>
+
+<select name="">
+<option value="">mm</option>	
+		<script type="text/javascript">
+		  generate_date_option(1,12);  
+		</script>
+</select>
+
+<select name="">
+<option value="">yy</option>	
+		<script type="text/javascript">
+		  generate_date_option(1990,2017);  
+		</script>
+</select>
+</div>
+
+
+</div>
+
+</body>
+</html>
